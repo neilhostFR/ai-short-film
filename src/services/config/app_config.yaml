@@ -1,0 +1,17 @@
+api:
+  host: localhost
+  port: 8000
+app:
+  debug: false
+  name: AI Short Film Generator
+  version: 1.0.0
+models:
+  audio_model: Qwen3-TTS
+  language_model: dashscope
+  llm_model_name: qwen-plus
+  video_model: wanx2.1-vace-plus
+  visual_model: wan2.2-t2i-plus
+paths:
+  logs_dir: ./logs
+  output_dir: ./output
+  temp_dir: ./temp

@@ -1,0 +1,44 @@
+# 核心依赖 - 分批安装以避免冲突
+
+# 第一批：基础框架和AI核心库
+langchain
+# 移除ollama，使用DashScope
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+pydantic>=2.0.0
+
+# 第二批：数据处理和科学计算库
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn
+scipy
+matplotlib>=3.7.0
+pillow>=9.0.0
+
+# 第三批：工具和实用库
+requests>=2.31.0
+pyyaml>=6.0
+python-dotenv>=1.0.0
+tqdm
+regex
+
+# 第四批：特定功能库
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+openai>=1.0.0
+tiktoken>=0.4.0
+ffmpeg-python>=0.2.0
+
+# 第五批：网络和异步处理库
+aiohttp>=3.8.3
+asyncio>=3.4.3
+
+# 第六批：Web框架和API
+fastapi>=0.68.0
+uvicorn>=0.15.0
+
+# DashScope SDK
+dashscope>=1.25.0
